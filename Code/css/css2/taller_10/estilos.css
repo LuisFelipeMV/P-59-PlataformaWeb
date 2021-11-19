@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+}
+
+p {
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+    background-color: lightgreen;
+}

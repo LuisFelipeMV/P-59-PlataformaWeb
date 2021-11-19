@@ -1,0 +1,11 @@
+img {
+    width: 200px;
+}
+
+img, p {
+    float: left;
+}
+
+.clearFloat {
+    clear: both;
+}

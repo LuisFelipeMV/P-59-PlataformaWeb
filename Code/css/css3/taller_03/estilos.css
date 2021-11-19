@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.item {
+    background-color: lightseagreen;
+    padding: 10px;
+    border: 1px solid black;
+}
