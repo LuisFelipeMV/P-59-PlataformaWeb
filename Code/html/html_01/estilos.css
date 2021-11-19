@@ -1,0 +1,42 @@
+h1 {
+    font-size: 30px;
+    color: chocolate;
+}
+* {
+    margin: 2px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.item0 {
+    background-color: rebeccapurple;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.item1 {
+    background-color: lightseagreen;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.item2{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.item3{
+    background-color: darkred;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.item4{
+    background-color: greenyellow;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
